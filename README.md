@@ -33,3 +33,4 @@ The in-editor [Template Utility](https://docs.monaverse.com/create/building-spac
 Also, be sure to check out the [Mona Library](https://docs.monaverse.com/create/resources/mona-library) for access to additional tools and pre-built assets from both our team and the wider community.
 
 ![image](https://github.com/monaverse/SpaceStarter/assets/16878403/d8069f0e-8f4c-42db-98c9-10dde00d8fc3)
+# EncodeClub-OpenDataHack-Mona
