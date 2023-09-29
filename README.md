@@ -1,3 +1,32 @@
+^^^^^^^^^
+1. Create a new folder with the name position-api-server.
+2. Navigate inside the folder from the command line and execute the following command
+   npm init -y
+   This will create a package.json file inside your project.
+3. Install the json-server npm package by executing the following command
+   npm install json-server
+4. Create a new file with the name .gitignore with the entry for node_modules inside it so the node_modules folder will not be pushed to  
+   GitHub while pushing the code to the GitHub repository.
+5. Create a new file with the name db.json and add the following contents inside it:
+   {
+  "position": [
+    {
+      "x": 9,
+      "y": 9,
+      "z": 9
+    }
+  ]
+}
+6. Open package.json file and add the scripts section inside it:
+"scripts": {
+  "start": "json-server db.json"
+}
+7. Start the application by running the npm start command from the terminal.
+8. Now access "http://localhost:3000/position"
+
+********************
+
+
 ![github_v3](https://user-images.githubusercontent.com/16878403/213307671-f153951f-b0ce-4c19-96a3-321e8254bef7.png)
 <p align="center">Start building your own custom Mona Space using our official template</p>
 
